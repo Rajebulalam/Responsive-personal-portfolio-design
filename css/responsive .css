@@ -5,6 +5,9 @@
     #testimonial-area .message {
         width: 70%;
     }
+    #banner-area .child-half:last-child{
+        padding-left: 5%;
+    }
 
 }
 
@@ -15,6 +18,9 @@
 	
     .flexible-area{
         flex-direction: column;
+    }
+    #hader-area .child-half:first-child{
+        margin-bottom: 30px;
     }
     #banner-area .child-half:first-child{
         order: 2;
