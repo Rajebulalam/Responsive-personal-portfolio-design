@@ -1,0 +1,41 @@
+/* Tablet Layout: 768px */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+	
+    #testimonial-area .message {
+        width: 70%;
+    }
+
+}
+
+
+/* Mobile Layout: 768px */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	
+    .flexible-area{
+        flex-direction: column;
+    }
+    #banner-area .child-half:first-child{
+        order: 2;
+    }
+    #banner-area .child-half:last-child{
+        order: 1;
+        margin-bottom: 40px;
+    }
+    #testimonial-area .message {
+        width: 100%;
+    }
+
+}
+
+
+/* Mobile Layout: 768px */
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+	
+    #testimonial-area h2 {
+        font-size: 1.2rem;
+    }
+
+}
